@@ -62,7 +62,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b> Powered by @CP_S4U_Links ⛔️❌ 👇DON'T JOIN THE FOLLOWING CHNL‼️ IF YOU JOINED YOU WILL GET PERMANENT BAN AND YOU CANNOT ACCES ANY MOVIES FROM THIS GRP👇❌⛔️ ⚠️⭕️🚫ദയവു ചെയ്തു ഈ ചാനൽ subscribe ചെയ്യരുത് ....... Subscribers അധികമായാൽ ചാനൽ BAN ആവും .🚫 ‼️JOIN ചെയ്താൽ PERMANANT BAN കിട്ടും പിന്നെ നിങ്ങൾക്ക് ഈ GRPL നിന്നും ഒരു മൂവിയും കിട്ടുന്നതല്ല  ⭕️⚠️  Here is the result for {message.text}</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
