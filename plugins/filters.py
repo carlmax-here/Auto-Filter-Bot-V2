@@ -218,7 +218,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.delete()
 
     else:
-        await query.answer("Thats not for you!!",show_alert=True)
+        await query.answer("എന്റെ മോനേ അത് നിനക്ക് ഉള്ളതല്ല . ",show_alert=True)
 
 
 def split_list(l, n):
